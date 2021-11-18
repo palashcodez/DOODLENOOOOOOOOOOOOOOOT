@@ -1,0 +1,49 @@
+#webpage-title{
+    background-color: rgb(97, 97, 97, 1);
+}
+
+body{
+    background-image: url("feathers-bird-wing-blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:luminosity;
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-weight: bolder;
+    font-family:cursive;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(61, 61, 61, 0);
+    border: 2.5px solid #66fcf1;
+    border-radius: 2.5px;
+    color: #66fcf1;
+    font-weight: bolder;
+    float: right;
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid #66fcf1;
+    border-radius: 25px;
+    background-color: white;
+    animation-name: giveanynamemygod;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes giveanynamemygod{
+    from{
+        box-shadow: 1px 1px 412384px #66a7fc;
+    }
+
+    to{
+        box-shadow: 1px 1px 275314px #66fcf1;
+    }
+}
+
+table{
+    float: left;
+    font-size: 25px;
+}
